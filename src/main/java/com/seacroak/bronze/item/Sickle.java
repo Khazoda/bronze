@@ -57,10 +57,11 @@ public class Sickle extends MiningToolItem {
     if (initialBlockState.getBlock() instanceof CropBlock || initialBlockState.getBlock() instanceof NetherWartBlock) {
       if (isMature(initialBlockState) && !worldIn.isClient()) {
         worldIn.breakBlock(pos, true);
-        if (initialBlockState.getBlock() instanceof NetherWartBlock) {
+        if (initialBlockState.getBlock() instanceof BeetrootsBlock) {
           worldIn.setBlockState(pos, initialBlockState.with(Properties.AGE_3, 0));
-        }
-        if (initialBlockState.getBlock() instanceof CropBlock) {
+        } else if (initialBlockState.getBlock() instanceof NetherWartBlock) {
+          worldIn.setBlockState(pos, initialBlockState.with(Properties.AGE_3, 0));
+        } else if (initialBlockState.getBlock() instanceof CropBlock) {
           worldIn.setBlockState(pos, initialBlockState.with(Properties.AGE_7, 0));
         }
 
