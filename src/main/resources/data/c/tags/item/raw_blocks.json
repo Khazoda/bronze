@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:raw_blocks/tin",
+      "required": false
+    },
+    {
+      "id": "#c:raw_blocks/bronze",
+      "required": false
+    }
+  ]
+}
