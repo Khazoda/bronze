@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bronze:bronze_blend",
+    {
+      "id": "#c:raw_bronze_ores",
+      "required": false
+    }
+  ]
+}
