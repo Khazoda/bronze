@@ -9,6 +9,7 @@ public class BronzeModClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 
+		BlockRenderLayerMap.INSTANCE.putBlock(MainRegistry.BRONZE_DOOR, RenderLayer.getCutoutMipped());
 		BlockRenderLayerMap.INSTANCE.putBlock(MainRegistry.BRONZE_TRAPDOOR, RenderLayer.getCutoutMipped());
 
 	}
