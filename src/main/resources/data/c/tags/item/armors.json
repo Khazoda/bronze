@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "bronze:bronze_helmet",
+      "required": false
+    },
+    {
+      "id": "bronze:bronze_chestplate",
+      "required": false
+    },
+    {
+      "id": "bronze:bronze_leggings",
+      "required": false
+    },
+    {
+      "id": "bronze:bronze_boots",
+      "required": false
+    }
+  ]
+}
