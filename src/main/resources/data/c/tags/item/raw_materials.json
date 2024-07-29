@@ -2,11 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "#c:ingots/bronze",
+      "id": "#c:raw_materials/tin",
       "required": false
     },
     {
-      "id": "#c:ingots/tin",
+      "id": "#c:raw_materials/bronze",
       "required": false
     }
   ]
