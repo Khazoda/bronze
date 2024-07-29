@@ -23,6 +23,7 @@
   ],
   "output": {
     "priority": [
+      "bronze:bronze_ingot",
       "mythicmetals:bronze_ingot",
       "techreborn:bronze_ingot",
       "indrev:bronze_ingot",

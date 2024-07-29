@@ -4,8 +4,8 @@
       "condition": "fabric:tags_populated",
       "registry": "minecraft:item",
       "values": [
-        "c:ingots/tin",
-        "c:ores/tin"
+        "c:storage_blocks/tin",
+        "c:storage_blocks/raw_tin"
       ]
     }
   ],
@@ -14,24 +14,24 @@
   "inputs": [
     {
       "count": 2,
-      "tag": "c:ores/tin"
+      "tag": "c:storage_blocks/raw_tin"
     }
   ],
   "min_forge_tier": 1,
   "output": {
-    "count": 2,
+    "count": 3,
     "priority": [
-      "bronze:tin_ingot",
-      "mythicmetals:tin_ingot",
-      "techreborn:tin_ingot",
-      "indrev:tin_ingot",
-      "modern_industrialization:tin_ingot"
+      "bronze:tin_block",
+      "mythicmetals:tin_block",
+      "techreborn:tin_block",
+      "indrev:tin_block",
+      "modern_industrialization:tin_block"
     ],
-    "tag": "c:ingots/tin"
+    "tag": "c:storage_blocks/tin"
   },
   "overrides": {
-    "3+": {
-      "count": 3
+    "2+": {
+      "count": 4
     }
   }
 }

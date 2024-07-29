@@ -5,7 +5,7 @@
       "registry": "minecraft:item",
       "values": [
         "c:ingots/tin",
-        "c:ores/tin"
+        "c:raw_materials/tin"
       ]
     }
   ],
@@ -14,12 +14,12 @@
   "inputs": [
     {
       "count": 2,
-      "tag": "c:ores/tin"
+      "tag": "c:raw_materials/tin"
     }
   ],
   "min_forge_tier": 1,
   "output": {
-    "count": 2,
+    "count": 3,
     "priority": [
       "bronze:tin_ingot",
       "mythicmetals:tin_ingot",
@@ -30,8 +30,8 @@
     "tag": "c:ingots/tin"
   },
   "overrides": {
-    "3+": {
-      "count": 3
+    "2+": {
+      "count": 4
     }
   }
 }
