@@ -1,11 +1,9 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:tags_populated",
-      "registry": "minecraft:item",
+      "condition": "fabric:all_mods_loaded",
       "values": [
-        "c:storage_blocks/tin",
-        "c:storage_blocks/raw_tin"
+        "alloy_forgery"
       ]
     }
   ],
