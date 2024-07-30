@@ -1,12 +1,9 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:tags_populated",
-      "registry": "minecraft:item",
+      "condition": "fabric:all_mods_loaded",
       "values": [
-        "c:raw_materials/tin",
-        "c:raw_materials/copper",
-        "c:ingots/bronze"
+        "alloy_forgery"
       ]
     }
   ],
