@@ -7,20 +7,16 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import static com.seacroak.bronze.Constants.BRONZE_ID;
+import static com.seacroak.bronze.util.GenericUtils.ID;
 
 public class RegistryHelper {
 
-  // General use Identifier() maker function
-  public static Identifier newID(String name) {
-    return Identifier.of(BRONZE_ID, name);
-  }
 
   // Block Registry Helper Functions
   // *******************************
   // 1. Default BlockItem Registration Entrypoint: creates Identifier from ModID & block name
   public static <B extends Block> B registerBlock(String name, B block, Item.Settings itemSettings) {
-    return registerBlock(newID(name), block, itemSettings);
+    return registerBlock(ID(name), block, itemSettings);
   }
 
   // 2. Takes identifier and registers block and block items
@@ -34,7 +30,7 @@ public class RegistryHelper {
   }
 
   public static <B extends Block> B registerBlockOnly(String name, B block) {
-    return registerBlockOnly(newID(name), block);
+    return registerBlockOnly(ID(name), block);
   }
 
   public static <B extends Block> B registerBlockOnly(Identifier name, B block) {
@@ -43,7 +39,7 @@ public class RegistryHelper {
   }
 
   public static <I extends BlockItem> I registerBlockItem(String name, I blockItem) {
-    return registerBlockItem(newID(name), blockItem);
+    return registerBlockItem(ID(name), blockItem);
   }
 
   public static <I extends BlockItem> I registerBlockItem(Identifier name, I blockItem) {
@@ -54,7 +50,7 @@ public class RegistryHelper {
   // Item Registry Helper Functions
   // ******************************
   public static Item registerItem(String name, Item item) {
-    return Registry.register(Registries.ITEM, newID(name), item);
+    return Registry.register(Registries.ITEM, ID(name), item);
 
   }
 }
