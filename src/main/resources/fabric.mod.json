@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://bronze.khazoda.com",
-		"sources": "https://github.com/Khazoda/bronze"
+		"sources": "https://github.com/Khazoda/bronze",
+		"issues": "https://github.com/Khazoda/bronze/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/bronze/icon.png",
