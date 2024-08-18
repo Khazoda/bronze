@@ -1,33 +1,38 @@
 package com.seacroak.bronze.item;
 
-import com.seacroak.bronze.util.GenericUtils;
 import net.minecraft.block.*;
-import net.minecraft.component.type.ToolComponent;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.MiningToolItem;
-import net.minecraft.item.ToolMaterial;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.TagKey;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-import java.util.List;
+public class Sickle extends Item {
 
-public class Sickle extends MiningToolItem {
-
-  public static final TagKey<Block> EFFECTIVE_BLOCKS = TagKey.of(RegistryKeys.BLOCK, GenericUtils.ID("mineable/sickle"));
-
-  public Sickle(ToolMaterial toolMaterial, Settings settings) {
-    super(toolMaterial, EFFECTIVE_BLOCKS, settings);
+  public Sickle(Settings settings) {
+    super(settings);
   }
 
-  public static ToolComponent createToolComponent() {
-    return new ToolComponent(List.of(ToolComponent.Rule.ofAlwaysDropping(List.of(Blocks.COBWEB), 15.0F), ToolComponent.Rule.of(BlockTags.LEAVES, 15.0F), ToolComponent.Rule.of(BlockTags.WOOL, 5.0F), ToolComponent.Rule.of(List.of(Blocks.VINE, Blocks.GLOW_LICHEN), 2.0F)), 1.0F, 1);
+  @Override
+  public float getMiningSpeedMultiplier(ItemStack stack, BlockState state) {
+    if (state.isOf(Blocks.COBWEB) || state.isIn(BlockTags.LEAVES)) {
+      return 15.0F;
+    } else if (state.isIn(BlockTags.WOOL)) {
+      return 5.0F;
+    } else if (state.isOf(Blocks.VINE) || state.isOf(Blocks.GLOW_LICHEN)) {
+      return 2.0F;
+    } else {
+      return 1.0F;
+    }
+  }
+
+  @Override
+  public boolean isSuitableFor(BlockState state) {
+    return state.isOf(Blocks.COBWEB);
   }
 
   @Override
@@ -40,13 +45,18 @@ public class Sickle extends MiningToolItem {
 
   @Override
   public boolean postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner) {
-    stack.damage(1, miner, EquipmentSlot.MAINHAND);
+    stack.damage(1, miner, (e) -> {
+      e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND);
+    });
+
     aoeHarvest(world, state, state, pos, 0);
     return true;
   }
 
   public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-    stack.damage(1, attacker, EquipmentSlot.MAINHAND);
+    stack.damage(1, attacker, (e) -> {
+      e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND);
+    });
     return true;
   }
 
@@ -74,9 +84,9 @@ public class Sickle extends MiningToolItem {
       }
     }
     /* True when block mined is grass*/
-    if (initialBlockState.getBlock() instanceof ShortPlantBlock || initialBlockState.getBlock() instanceof TallPlantBlock) {
+    if (initialBlockState.getBlock() instanceof FernBlock || initialBlockState.getBlock() instanceof TallPlantBlock) {
       Block currentBlock = currentBlockState.getBlock();
-      if (currentBlock instanceof ShortPlantBlock || currentBlock instanceof TallPlantBlock) {
+      if (currentBlock instanceof FernBlock || currentBlock instanceof TallPlantBlock) {
         worldIn.breakBlock(pos, true);
       }
       if (time < 4) {
@@ -93,7 +103,7 @@ public class Sickle extends MiningToolItem {
     if (state.getBlock() instanceof CropBlock cropBlock) {
       return cropBlock.isMature(state);
     } else if (state.getBlock() instanceof NetherWartBlock) {
-      return state.get(NetherWartBlock.AGE) >= NetherWartBlock.MAX_AGE;
+      return state.get(NetherWartBlock.AGE) >= NetherWartBlock.field_31199; // 31199 = MAX_AGE
     }
     return false;
   }
