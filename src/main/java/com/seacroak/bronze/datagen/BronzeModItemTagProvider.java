@@ -16,6 +16,6 @@ public class BronzeModItemTagProvider extends FabricTagProvider.ItemTagProvider 
   @Override
   protected void configure(RegistryWrapper.WrapperLookup arg) {
     getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-        .add(MainRegistry.BRONZE_HELMET, MainRegistry.BRONZE_CHESTPLATE,MainRegistry.BRONZE_LEGGINGS,MainRegistry.BRONZE_BOOTS);
+        .add(MainRegistry.BRONZE_HELMET, MainRegistry.BRONZE_CHESTPLATE, MainRegistry.BRONZE_LEGGINGS, MainRegistry.BRONZE_BOOTS);
   }
 }

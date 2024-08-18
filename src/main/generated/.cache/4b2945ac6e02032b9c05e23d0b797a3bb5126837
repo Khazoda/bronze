@@ -1,4 +1,4 @@
-// 1.21	2024-08-15T13:38:08.4364995	Bronze/Model Definitions
+// 1.20.1	2024-08-15T18:21:16.8949048	Bronze/Model Definitions
 b21a154b6bcd4bdbf44d1ee96228090fbfa78113 assets\bronze\models\item\bronze_leggings_amethyst_trim.json
 4420a4d76d07e2d41cce90347ac1ecf42aacfe30 assets\bronze\models\item\bronze_boots_amethyst_trim.json
 7bfdc83cda03ab621f595421d80c567ba98cbbbb assets\bronze\models\item\bronze_chestplate_lapis_trim.json
@@ -15,8 +15,8 @@ ee17937b02d3255f4883c287d2cfcfa53b29252f assets\bronze\models\item\bronze_leggin
 396f1079977a3db4b3dbfe271b66673640cee5b7 assets\bronze\models\item\bronze_boots.json
 e2d8f9383c08f3f42b2d7bc532ec9276c0a8bf71 assets\bronze\models\item\bronze_leggings_redstone_trim.json
 1444084bcf310e6dfd95d95a9e8dad283c8ebc7f assets\bronze\models\item\bronze_chestplate_diamond_trim.json
-9702f1e5ef183245ece5755a603ee6832aa07adc assets\bronze\models\item\bronze_helmet_redstone_trim.json
 0e76e1aed25d0b2241c69df5ae7f05dadfb1f58e assets\bronze\models\item\bronze_boots_copper_trim.json
+9702f1e5ef183245ece5755a603ee6832aa07adc assets\bronze\models\item\bronze_helmet_redstone_trim.json
 f700107261cd546ebfc79cbae51d20722b5fae7d assets\bronze\models\item\bronze_leggings.json
 8cdb343c4371775353b9cb81abb5ae0b898e4355 assets\bronze\models\item\bronze_leggings_iron_trim.json
 1f152dbc9725239a52addd30ae6dc2fd8cb9b1d9 assets\bronze\models\item\bronze_helmet_iron_trim.json
