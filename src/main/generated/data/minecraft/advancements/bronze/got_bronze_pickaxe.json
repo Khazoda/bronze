@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:bronze/got_bronze_ingot",
+  "criteria": {
+    "got_bronze_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bronze:bronze_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.bronze.got_bronze_pickaxe.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bronze:bronze_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.bronze.got_bronze_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_bronze_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

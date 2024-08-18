@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "criteria": {
+    "got_tin_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bronze:tin_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.bronze.got_tin_ingot.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bronze:tin_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.bronze.got_tin_ingot.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_tin_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bronze:tin_block"
+    ]
+  },
+  "sends_telemetry_event": true
+}

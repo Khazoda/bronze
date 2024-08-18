@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "criteria": {
+    "got_bronze_blend": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bronze:bronze_blend"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancement.bronze.got_bronze_blend.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bronze:bronze_blend"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.bronze.got_bronze_blend.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_bronze_blend"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bronze:bronze_ingot_from_smelting_bronze_blend",
+      "bronze:bronze_ingot_from_blasting_bronze_blend",
+      "bronze:bronze_blend_block"
+    ]
+  },
+  "sends_telemetry_event": true
+}

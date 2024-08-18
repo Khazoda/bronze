@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_bronze_nuggets": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bronze:bronze_nugget"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "recipe unlock"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "bronze:bronze_ingot"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "recipe unlock"
+    }
+  },
+  "requirements": [
+    [
+      "got_bronze_nuggets"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bronze:bronze_ingot_from_nuggets"
+    ]
+  },
+  "sends_telemetry_event": true
+}

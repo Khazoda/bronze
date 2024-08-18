@@ -28,7 +28,8 @@ public class MainRegistry {
   public static final Item BRONZE_BLEND = Registry.register(Registries.ITEM, ID("bronze_blend"), new BronzeBlend(defaultItemSettings));
   public static final Item BRONZE_NUGGET = Registry.register(Registries.ITEM, ID("bronze_nugget"), new BronzeNugget(defaultItemSettings));
   public static final Item BRONZE_INGOT = Registry.register(Registries.ITEM, ID("bronze_ingot"), new BronzeIngot(defaultItemSettings));
-  public static final Item BRONZE_HORSE_ARMOR = Registry.register(Registries.ITEM, ID("bronze_horse_armor"), new AnimalArmorItem(BronzeArmorMaterial.INSTANCE, AnimalArmorItem.Type.EQUESTRIAN, false, (new Item.Settings()).maxCount(1)));
+  public static final Item BRONZE_HORSE_ARMOR = Registry.register(Registries.ITEM, ID("bronze_horse_armor"), new HorseArmorItem(6, "bronze", (new Item.Settings()).maxCount(1)));
+  public static final Item SICKLE = Registry.register(Registries.ITEM, ID("bronze_sickle"), new Sickle(new Item.Settings().maxCount(1).maxDamage(238)));
 
   //  Weapons
   public static final ToolItem BRONZE_SWORD = Registry.register(Registries.ITEM, ID("bronze_sword"), new BronzeSword(BronzeToolMaterial.INSTANCE));
@@ -36,13 +37,13 @@ public class MainRegistry {
   public static final ToolItem BRONZE_PICKAXE = Registry.register(Registries.ITEM, ID("bronze_pickaxe"), new BronzePickaxe(BronzeToolMaterial.INSTANCE));
   public static final ToolItem BRONZE_SHOVEL = Registry.register(Registries.ITEM, ID("bronze_shovel"), new BronzeShovel(BronzeToolMaterial.INSTANCE));
   public static final ToolItem BRONZE_HOE = Registry.register(Registries.ITEM, ID("bronze_hoe"), new BronzeHoe(BronzeToolMaterial.INSTANCE));
-  public static final ToolItem SICKLE = Registry.register(Registries.ITEM, ID("bronze_sickle"), new Sickle(BronzeToolMaterial.INSTANCE, new Item.Settings().maxCount(1)));
 
   // Armor
-  public static final Item BRONZE_HELMET = Registry.register(Registries.ITEM, ID("bronze_helmet"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(18))));
-  public static final Item BRONZE_CHESTPLATE = Registry.register(Registries.ITEM, ID("bronze_chestplate"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(18))));
-  public static final Item BRONZE_LEGGINGS = Registry.register(Registries.ITEM, ID("bronze_leggings"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(18))));
-  public static final Item BRONZE_BOOTS = Registry.register(Registries.ITEM, ID("bronze_boots"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(18))));
+  private static final ArmorMaterial bronzeArmorMaterial = new BronzeArmorMaterial();
+  public static final Item BRONZE_HELMET = Registry.register(Registries.ITEM, ID("bronze_helmet"), new ArmorItem(bronzeArmorMaterial, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(198)));
+  public static final Item BRONZE_CHESTPLATE = Registry.register(Registries.ITEM, ID("bronze_chestplate"), new ArmorItem(bronzeArmorMaterial, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(288)));
+  public static final Item BRONZE_LEGGINGS = Registry.register(Registries.ITEM, ID("bronze_leggings"), new ArmorItem(bronzeArmorMaterial, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(270)));
+  public static final Item BRONZE_BOOTS = Registry.register(Registries.ITEM, ID("bronze_boots"), new ArmorItem(bronzeArmorMaterial, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(234)));
 
   /* Blocks */
   public static final TinOre TIN_ORE = registerBlock("tin_ore_block", new TinOre(), defaultItemSettings);

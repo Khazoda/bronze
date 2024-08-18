@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:bronze/got_bronze_ingot",
+  "criteria": {
+    "got_sickle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bronze:bronze_sickle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.bronze.got_sickle.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bronze:bronze_sickle",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.bronze.got_sickle.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_sickle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

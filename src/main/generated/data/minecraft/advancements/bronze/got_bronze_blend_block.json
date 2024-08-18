@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_bronze_blend_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bronze:bronze_blend_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "recipe unlock"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "bronze:bronze_blend"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "recipe unlock"
+    }
+  },
+  "requirements": [
+    [
+      "got_bronze_blend_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bronze:bronze_blend"
+    ]
+  },
+  "sends_telemetry_event": true
+}
