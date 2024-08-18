@@ -1,11 +1,9 @@
 package com.seacroak.bronze.material;
 
 import com.seacroak.bronze.registry.MainRegistry;
-import net.minecraft.block.Block;
+import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.TagKey;
 
 public class BronzeToolMaterial implements ToolMaterial {
 
@@ -27,8 +25,8 @@ public class BronzeToolMaterial implements ToolMaterial {
   }
 
   @Override
-  public TagKey<Block> getInverseTag() {
-    return BlockTags.INCORRECT_FOR_IRON_TOOL;
+  public int getMiningLevel() {
+    return MiningLevels.IRON;
   }
 
   @Override

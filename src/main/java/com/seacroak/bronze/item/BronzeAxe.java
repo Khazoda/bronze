@@ -1,16 +1,14 @@
 package com.seacroak.bronze.item;
 
-import com.seacroak.bronze.material.BronzeToolMaterial;
 import net.minecraft.item.AxeItem;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
 
 public class BronzeAxe extends AxeItem {
   public BronzeAxe(ToolMaterial toolMaterial) {
-    super(toolMaterial, getItemSettings());
+    super(toolMaterial, 5.5f, -3.1f, getItemSettings());
   }
 
   private static Settings getItemSettings() {
-    return (new Settings()).attributeModifiers(PickaxeItem.createAttributeModifiers(BronzeToolMaterial.INSTANCE, 5.5F, -3.1F));
+    return (new Settings());
   }
 }
