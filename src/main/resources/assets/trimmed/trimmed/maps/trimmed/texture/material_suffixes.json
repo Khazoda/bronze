@@ -1,5 +1,6 @@
 {
   "values": {
-    "bronze:trims/color_palettes/bronze": "bronze"
+    "bronze:trims/color_palettes/bronze": "bronze",
+    "bronze:trims/color_palettes/tin": "tin"
   }
 }
