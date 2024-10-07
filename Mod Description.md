@@ -1,12 +1,15 @@
 <sub style="float: left">
-  
-Supported Languages | [Help translate this mod into _your_ language](https://poeditor.com/join/project/s6iwe7N69K)  
+
+[Help translate this mod into _your_ language](https://poeditor.com/join/project/s6iwe7N69K) | [🌏Visit my website](https://khazoda.com)  
+
 ![US Flag](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAh1JREFUWEdjZBhgwDjA9jOMOmBwhYBo2lQbpn+MJv8ZGPnxpY3rO3rJSjr/GRleMzIyHBB+dOcazABwCIilTrVi/M84gYGBwZQYk6/u6CNGGT41G///+1su+uz+TUbxlNmKDAy/zzEwMAgQa+qFGB2E0p+/bxCrD6yOnVUDRP3/++8Dg6aaKqNYyrQp1upS2Y/ffGaQFeFlOHbzGYOVuhSYlhXmZXj89jOYjyx/vjkI1c4/f54S5QgWFmlkdczv3k1nFE+ZdsdKXUoZZAEIgBwBswwmhqwJ5CAqRAHYyP8MDHdBDvgPthjqW2Rfw0IB5gCQ5SBwmeU6A4Os9G6ifI1P0ZNnTmAHwIKcWBojCihwCUYIEHIEyK4rJ+eBEi1VANgBsGAPt9JgWHnsBgM6DXMUTPzqkRlfqGI7AwMDPATQUz62tABLA1SPAvRgR7ccXf6S6vejVA8BUgykVjYE2ck4YcPR46RYDlIbLsVBqhac6hmfPX8BLgcGCjC+kVH5NVCWg6PgdWzSiQF1wIBHwVtZtd////9jYdDUOEDXkLh+w+E/A8M/UBq4wsDAoE1XyxGW3WF8uXZD4F9VlYkD4YD/nz6tZHz+/LnC/89f1g6EA6TUVI3BbcLXUorqDIzMXYyMDH50cch/hk3///8tA7cJkS18IaOky8LAaM/IwChMC4f8Z/j/9g/D/4MST+5dhpk/uPoFtPA1ITNHQwAAWLMQ9nMJOhoAAAAASUVORK5CYII=)
 ![Germany Flag](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQZJREFUWEftlzGywVAYhc9R0L23AaVUKvIQ0dmFwgwVy1FSvULxVoEKQ4wN2IImRiOF/801g0YbR5EsIN83J7lzziXED8V8ZAKfk4D30+zYFV2SIYDvlP6N2MxWzGF62K3/HOOWgFdtjUEbpAR9/Vrj5LBfDulVwx6I37fC7zBDnyU/nBFoKwQMmNPzwxjAl0IAwMkJmAh+w+oFBmV/IU3gWCxpP0EmkCUgT+A8qmiP4SUKtMdQLpBEQWyiMqIro2TXnJmZpI5Jzplsg56JBgndIHFFlESNsYFvnWSETfK1zfCxii9RvQPkugBSHaUAVsB1Wqhtn6NUWsdK+GOWKyU+52akSuEfvnJV++7ai6UAAAAASUVORK5CYII=)
 ![Brazilian Flag](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAA1dJREFUWEftV11Ik2EUfj7nflScuqnTbbkMf/IiwRuhoPUDKnRXFmSlFBVWIEQXUbqkdHNeRkElBkFBBYFdeBFYGXWRYBdFIbaZtbm/5ubPJjp/cl+839j0c9/mJopeeO72vuc85/nOe87zvqOwyUZtcn5sE9g6FcjQC2ooiqoFsA9A2gb1hgfAZ5qmn03cnH9BcjAVkLQLHwGo36CkkWA7xm/MXaKketFZmqKfrCW5hM+DVMDH0PTsWsJB0dQ5StIufA/gcLwIR7LSoStWQipIhMZgxVObO14I4t9LCJBzEccT3VKoxMW8LFbIa+c4mgxWTCwsxgPlJQToWCPK01OgLVJiT2oyZ4hjboEh8cY1GSskYibQoMpBY0FuCFjbpYLZJYLJLcSBEg9q1U6oMgO90GkZRbPRFhOJVQnkJwmZsz4kDZzSp8F0VOhKw8BJ8jq1E5pjZmbvx9QMU40vnumoRKISqMmVMsmTeAkMiNktQtHV8oiAhISm2oy6/c6QT9uwHfdNS79XBnMSSE3kQVekxIlcCcvflX4HPxcppPEEoGkKPK8fXQMG6Np+h/zUJZN42/SdFdc75mWqYfLNhZEPI1CRmcY0Wl6SIMz5oL4KfQM+7FRkMHvZCi/OH90NXh4Fn3MSDdeszDohQIgsN5/fj0aDBS/t46x1FoGTcgnIiJEKcJnwjJpznRCqqpTg9um96O7rQf7suzACwcCWIRsejoyGcMIqsEMkgLZYicrM8OsgEoEgGiGivy5Dtbwb9JyDRfarZwaNRiu+edlNGbEJr6hkuFUgZ4GQ0WvtUkGRLYZt1MtZDdKAnfUG1t4DsxOtv+yc/lGnoEyczExBmTglNAUV2lL4+TJYHERAA6aQieH30xDQLhjv9ofWLb55aIxW9LiXfGOagpVOzYUKXM7LDpG40FHE6MFyIyP4uN4YOvtXjnE0Ga2Y+hddmlcVomAS0hOkN0iPECOa8HEwDSMuEUsFZxf9TOLn9jHOknNVIObLSEz0oViJ4zlsfQiCfiDzbrTiz0z4vEdgw1xGcV/Hp+QBhRQlBBSSmH7YgXumvzF99TKn3jU/SHYlB+4IKT/wHuhfRfO5mDEPErKxqU+yILNNfZTGe3Dr6b91/hes51fFg7Vdgf+HBTaUIvl+0AAAAABJRU5ErkJggg==)
 ![Turkish Flag](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAZlJREFUWEftl7FKA0EQhv+JiCgSkWDlXaV5BtHSRxAUBAWttFEwjc9gE0EbrSwUBAXfQLEy+AzB6mJlLBJEETEr/8LGFDG3e1zcKzJVCLP7f/PP3N6ewHOIZ30MALLjwEtYXM0pta6ABQATfZqNhgAPLZHzqah6SQ3twGs4c6KUbPVJtOu2Iuq0ED1tSz0sbkCps/8Ub2uJbEo9mL0FsOgFALgjQANA3hNAkwAqiXgumNbLWrXnJMt/u+AKMDw/h/HyAToBvqMa3kr7iWCcHBhZXtLijPfyET6vb7QoYYbCQP//VXl0csQagJXnry705qyW4mmENQArpwOssLmyFqvNXBtIa4DJyr22mpvSgV7BPOYzCNurLdYAhaja7v3H4XFPgNG9HYyVdvV8EDYVAPafc2DbAraMgxr3qFo7YJ4Am6piB6QjwRqAfWVVdOEvCOa4HkzWAISmAJ0w/eUBZAT5O242ujnjBGA2IAidMKehOZBcrDe5mXgZeX4d+76QsBder2RmGLxeSpNMb1prsvNdkFZFrvsMHPgBtjvQTetR5nwAAAAASUVORK5CYII=)
 ![Russian Flag](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQpJREFUWEftlzFOAkEYhd/bA2hhjMRlK+EQUnoJQ0EClVzAu0BlsQWHMCAVh9BYEZg1rsVygH0GolhZLm+LnQPM9+XNTP43hHnRzEcjUJ8ENpusH0UcCOoBOK/ibhAoAK7KUmkct2Z7xiGBbfYxgfRQBfTfPcnpdetqzBDCUODTSeE/MEIjhpDNBdx5BLDYCxQCzkwCO25DJgf8l+kXSJevL9YE4sdn7xE0Ak0C9gRmt/feZ5i3O95nWAeBAqZhBGDHvN2ZwzSOASyYJ90hJEshATk6VLKv5GYi8aSVjNT0Yv0+Prbiz6Tbj6SBgMpKKYCCwKok08v1218ptY5jJ/xYy50S9fkZuVL4BkC/YFDaIqbbAAAAAElFTkSuQmCC)
 ![Spanish Flag](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAf9JREFUWEftls9KG1EUxr/LDIaihigmiokxNhFF0Kob8Q8lqSIodNVCwY15gu7adX0BX0F9A1ctFEqkBpGIGjWVUEVH1FFpdDTxT2LneppJcRcRYcbrwgN3e77f/c7l3I9BcDHB+ngGeDoO/PEEgoxoFEAQjPkseRtEChgzzlTV7sakoVFwIFXXGAbRhCWidzQl4Itzb3OMaTU+H5fl7ccUv9WSdL2Bpdz+ibwtYREA+XHPGADbls38/lvNsJQnkB+HuGKnH7oi4uQBxmMjRR3IXOrIXV3h5+IcettcUC+q0eGvNZ31ToCsfoGlqBM88R2/NQ5XbQkGw22wSaWmQhQFmF/+hYPNHPzXTqjqAez9b1ERsEPXokirx+jtbjENoijAykkzsvEoZpM7yBwR+gY+wVsfgHY6jhtHN3q8CWsB1herkYjHcF22ijmlCV5/P4bfBKFNf0Zl+xBaO/esBYj/IGQaHODRr1hISyiX/6K1/gRN7tdYO3YjFLq0FiCyxeG0ZaF+i0N9kUZz1gFdPoc08A6Zsy0MtlRZCzC1VIP3r86R3FjHy8Z2nKl2uGxJrOY8iCX28XHIZh6A8EUkfBWLBxD5GxIpYvMA0eT/RCRJkUfPBESKxHmokAkNCF2WR5kRSIl8lsIQFcKoxPlYxaGiPJ1YbtpmeWCjZweEO/APkC7PUs5ICzIAAAAASUVORK5CYII=)
+![Chinese Flag](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAZxJREFUWEftV7FOwlAUPbdQQSKaaNBFJmWSL3CTn1AHE51w0S/Qn3CSycHB+BHi5hewGSc2isaiEhToM/eRNi005LV5DQx0adN33znnnnvTd0uY8UUz5sdCwPw4YBVLx4YQJwLYB7CWUG/YBLw4RPeF5usDc0gH3os7t0JQdRopFQwIy9Gmi0jUNppv59Qulk4hxN005FTZxPJFHt/VD20CJBDRGbW3d58AVMaRmXTY6I/ifNlrdqLOAmwAq+MCVmrr+Ln6DNjOopYOc+jdfOkqR4cFCJecs0uXTaQrWXkfNPoY1HtwLEe6wevGVspzRkc9AgLMgwyyl/kJ3O61rZXUTxAQwAtsceYo58Ww3f3nX68XzEoWf49dHcmPMP0l4BeuC6LlgDYNWW9XAPdAas9MVgA7IFpDScpi+OJnzd3vOTjhQJi3iX0HwkoQJiCp7EN7QFt3KQIplUARK1bYQsBcOBB6GMUqaPRN8jAKPY6jY8XaUVcaSGJBq2zigYTjVEYyFbwoMd5I5m6a6VAaRbnu2Pn5L9CdmSrewoF/wfKsTZBdqQgAAAAASUVORK5CYII=)
+![French Flag](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAMRJREFUWEdjZBhgwDjA9jOMOgASAqpTNRkYGHwZ/jOK44qSwnhNtbocg1vERNnf6fPVGJeswa72//8iRob/5f+YGTaLXDlxnZFBeVoAA+P/9YQMTgtTO95RYmxJSB1I/n//jOMMazYTVPufgSGQkUFl6gkGBgZzQgbTwgEMDAwnQQ74T8hykDyNHMAw6oDREBgNgdEQGA2B0RAYDYHREBjoEPg3CJpkA94opXeznIGBgfH/v5eIZjkxLVIaqhntmg14CAAAOB73BZFZZhAAAAAASUVORK5CYII=)
 
 </sub>
 
@@ -87,8 +90,6 @@ The bronze mod has three main goals it aims to achieve:
 
 #### With this in mind, there are a few new features I'd like to implement in the Bronze mod going forward:
 
-First order of business is integration with [Basic Weapons](https://modrinth.com/mod/basic-weapons). The addition of the 5 new weapon types will hopefully bring a cohesive, enjoyable flavour to vanilla+ Minecraft.
-
 This mod already includes a few non-combat blocks and items, such as the `Bronze Door`, `Bronze Trapdoor` and `Sickle`, but I believe there's room for more.<br/>
 Iron ingots have many different roles in vanilla Minecraft. They can be used for armor, weapons, tools, pistons, chains, pressure plates and about 35 other recipes.<br/>
 While I don't want bronze to be as useful as iron, as I believe it would take away from iron's mid-game dominance as a useful material too much, I do want to add some unique features that round the material out.
@@ -144,14 +145,13 @@ Full Minecraft recipe book integration
 
 Thank you to all the wonderful translation contributors!
 
-- Brazilian Portugese
-  - Luis
-  - Vico
-- Russian
-  - Саид
-- Spanish
-  - Leandro
-- Turkish
-  - EnderKTS
+- Luis
+- Vico
+- Саид
+- Leandro
+- EnderKTS
+- 卓华 胡
+- Pinwou
+- ix0rai
 
 ![Bronze Mod Footer](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_footer.png?raw=true)
