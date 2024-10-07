@@ -106,9 +106,10 @@ Open the section below to see the y levels that tin ore can be found
 
 <details>
 
-__Tin ore spawns between y levels `-12` and `96`, with it being most plentiful around `42`.__ 
+__Tin ore spawns between y levels `-12` and `96`, with it being most plentiful around `42`.__  
 It spawns slightly less frequently than iron ore, and only between the values given, meaning it's around 1.5 times more uncommon than iron ore (roughly).  
-The best way to find it is by going caving above the deepslate layer, or by strip mining around y = `42`
+The best way to find it is by going caving above the deepslate layer, or by strip mining around y = `42`  
+
 
 </details>
 
