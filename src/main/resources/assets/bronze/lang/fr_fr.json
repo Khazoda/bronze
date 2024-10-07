@@ -1,7 +1,7 @@
 {
   "bronze.itemGroup": "Bronze",
   "block.bronze.tin_ore_block": "Minerai d'étain",
-  "block.bronze.deepslate_tin_ore_block": "Deepslate Tin Ore",
+  "block.bronze.deepslate_tin_ore_block": "Minerai d'étain des abysses",
   "item.bronze.raw_tin": "Étain brut",
   "block.bronze.raw_tin_block": "Bloc d'étain brut",
   "block.bronze.bronze_blend_block": "Bloc de mélange de bronze",
