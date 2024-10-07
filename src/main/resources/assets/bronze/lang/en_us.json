@@ -24,6 +24,8 @@
   "item.bronze.bronze_sickle": "Sickle",
   "block.bronze.bronze_door_block": "Bronze Door",
   "block.bronze.bronze_trapdoor_block": "Bronze Trapdoor",
+  "trim_material.bronze.bronze": "Bronze Material",
+  "trim_material.bronze.tin": "Tin Material",
   "advancement.bronze.got_tin_ingot.title": "Tin There, Done That",
   "advancement.bronze.got_tin_ingot.description": "Smelt a Tin Ingot",
   "advancement.bronze.got_bronze_blend.title": "It's Not For Your Face",
