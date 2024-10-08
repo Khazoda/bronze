@@ -5,3 +5,5 @@
 The code in this repository is under the [MIT License](https://github.com/Khazoda/bronze/blob/latest-stable/LICENSE).
 
 Issues and pull requests are welcome, but please contribute translations via the POEditor platform [here](https://poeditor.com/join/project/s6iwe7N69K).
+
+![Bronze mod banner](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/logo_wide.png?raw=true)
