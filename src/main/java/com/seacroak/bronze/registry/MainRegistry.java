@@ -56,6 +56,8 @@ public class MainRegistry {
   public static final BronzeTrapdoor BRONZE_TRAPDOOR = registerBlock("bronze_trapdoor_block", new BronzeTrapdoor(), defaultItemSettings);
 
   public static final TinFramedGlass TIN_FRAMED_GLASS = registerBlock("tin_framed_glass", new TinFramedGlass(), defaultItemSettings);
+  public static final ChiseledTin CHISELED_TIN = registerBlock("chiseled_tin", new ChiseledTin(), defaultItemSettings);
+  public static final TinTiles TIN_TILES = registerBlock("tin_tiles", new TinTiles(), defaultItemSettings);
 
   /* WorldGen */
   public static final RegistryKey<PlacedFeature> TIN_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, ID("ore_tin"));
