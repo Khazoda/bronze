@@ -11,6 +11,7 @@ public class BronzeModClient implements ClientModInitializer {
 
 		BlockRenderLayerMap.INSTANCE.putBlock(MainRegistry.BRONZE_DOOR, RenderLayer.getCutoutMipped());
 		BlockRenderLayerMap.INSTANCE.putBlock(MainRegistry.BRONZE_TRAPDOOR, RenderLayer.getCutoutMipped());
+		BlockRenderLayerMap.INSTANCE.putBlock(MainRegistry.TIN_FRAMED_GLASS, RenderLayer.getTranslucent());
 
 	}
 }

@@ -55,6 +55,7 @@ public class MainRegistry {
   public static final BronzeDoor BRONZE_DOOR = registerBlock("bronze_door_block", new BronzeDoor(), defaultItemSettings);
   public static final BronzeTrapdoor BRONZE_TRAPDOOR = registerBlock("bronze_trapdoor_block", new BronzeTrapdoor(), defaultItemSettings);
 
+  public static final TinFramedGlass TIN_FRAMED_GLASS = registerBlock("tin_framed_glass", new TinFramedGlass(), defaultItemSettings);
 
   /* WorldGen */
   public static final RegistryKey<PlacedFeature> TIN_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, ID("ore_tin"));
@@ -64,7 +65,8 @@ public class MainRegistry {
     BRONZE_LOGGER.info("Initializing Main Registry");
     /* Add Tin Ore to WorldGen */
     BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, TIN_ORE_PLACED_KEY);
-
+    /* Enable connected textures resourcepack */
+    ResourcePackRegistry.register("bronze_ctm");
   }
 
   /* Registration Functions */

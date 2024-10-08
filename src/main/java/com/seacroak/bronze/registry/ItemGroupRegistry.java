@@ -44,6 +44,7 @@ public class ItemGroupRegistry {
           entries.add(new ItemStack(MainRegistry.BRONZE_DOOR));
           entries.add(new ItemStack(MainRegistry.BRONZE_TRAPDOOR));
 
+          entries.add(new ItemStack(MainRegistry.TIN_FRAMED_GLASS));
         }).build();
   }
 

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#T#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "T": {
+      "tag": "c:ingots/tin"
+    }
+  },
+  "result": {
+    "id": "bronze:tin_framed_glass",
+    "count": 8
+  }
+}
