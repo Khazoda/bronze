@@ -47,5 +47,8 @@
   "tag.item.c.hoes": "Hoes",
   "tag.item.c.bronze_nuggets": "Bronze Nuggets",
   "tag.item.c.pickaxes": "Pickaxes",
-  "tag.item.c.raw_tin": "Raw Tins"
+  "tag.item.c.raw_tin": "Raw Tins",
+  "resource_pack.bronze.bronze_ctm.name": "Bronze Mod Connected Textures",
+  "resource_pack.bronze.bronze_ctm.description": "Adds connected textures support for some blocks (built-in: Bronze)"
+
 }

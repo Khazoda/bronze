@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 12,
+    "pack_format": 34,
     "description": {
-      "translate": "resourcePack.continuity.default.description"
+      "translate": "resource_pack.bronze.bronze_ctm.description"
     }
   }
 }

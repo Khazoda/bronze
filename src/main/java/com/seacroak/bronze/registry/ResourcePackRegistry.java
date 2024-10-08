@@ -12,7 +12,7 @@ public class ResourcePackRegistry {
   public static boolean registerIfPresent(String external_mod_id, String resource_pack_name) {
     if (FabricLoader.getInstance().isModLoaded(external_mod_id)) {
       FabricLoader.getInstance().getModContainer(Constants.BRONZE_ID).ifPresent(modContainer -> {
-        ResourceManagerHelper.registerBuiltinResourcePack(GenericUtils.ID(resource_pack_name), modContainer, Text.translatable("resourcePack.plushables." + resource_pack_name + ".name"), ResourcePackActivationType.DEFAULT_ENABLED);
+        ResourceManagerHelper.registerBuiltinResourcePack(GenericUtils.ID(resource_pack_name), modContainer, Text.translatable("resource_pack.bronze." + resource_pack_name + ".name"), ResourcePackActivationType.DEFAULT_ENABLED);
       });
       return true;
     }
@@ -22,7 +22,7 @@ public class ResourcePackRegistry {
   /* Register resource pack */
   public static void register(String resource_pack_name) {
     FabricLoader.getInstance().getModContainer(Constants.BRONZE_ID).ifPresent(modContainer -> {
-      ResourceManagerHelper.registerBuiltinResourcePack(GenericUtils.ID(resource_pack_name), modContainer, Text.translatable("resourcePack.plushables." + resource_pack_name + ".name"), ResourcePackActivationType.DEFAULT_ENABLED);
+      ResourceManagerHelper.registerBuiltinResourcePack(GenericUtils.ID(resource_pack_name), modContainer, Text.translatable("resource_pack.bronze." + resource_pack_name + ".name"), ResourcePackActivationType.DEFAULT_ENABLED);
     });
   }
 }
