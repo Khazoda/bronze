@@ -7,6 +7,7 @@ import com.seacroak.bronze.material.BronzeToolMaterial;
 import com.seacroak.bronze.util.RegistryHelper;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -58,6 +59,9 @@ public class MainRegistry {
   public static final TinFramedGlass TIN_FRAMED_GLASS = registerBlock("tin_framed_glass", new TinFramedGlass(), defaultItemSettings);
   public static final ChiseledTin CHISELED_TIN = registerBlock("chiseled_tin", new ChiseledTin(), defaultItemSettings);
   public static final TinTiles TIN_TILES = registerBlock("tin_tiles", new TinTiles(), defaultItemSettings);
+  public static final CutTin CUT_TIN = registerBlock("cut_tin", new CutTin(), defaultItemSettings);
+  public static final CutTinStairs CUT_TIN_STAIRS = registerBlock("cut_tin_stairs", new CutTinStairs(CUT_TIN.getDefaultState(), AbstractBlock.Settings.copy(CUT_TIN)), defaultItemSettings);
+  public static final CutTinSlab CUT_TIN_SLAB = registerBlock("cut_tin_slab", new CutTinSlab(AbstractBlock.Settings.copy(CUT_TIN)), defaultItemSettings);
 
   /* WorldGen */
   public static final RegistryKey<PlacedFeature> TIN_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, ID("ore_tin"));

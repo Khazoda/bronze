@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building_blocks",
+  "group": "cut_tin",
+  "pattern": [
+    "TT",
+    "TT"
+  ],
+  "key": {
+    "T": {
+      "item": "bronze:tin_ingot"
+    }
+  },
+  "result": {
+    "id": "bronze:cut_tin",
+    "count": 4
+  }
+}

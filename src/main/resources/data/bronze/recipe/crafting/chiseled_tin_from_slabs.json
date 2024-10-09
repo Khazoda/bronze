@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building_blocks",
+  "group": "chiseled_tin",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "bronze:cut_tin_slab"
+    }
+  },
+  "result": {
+    "id": "bronze:chiseled_tin",
+    "count": 1
+  }
+}

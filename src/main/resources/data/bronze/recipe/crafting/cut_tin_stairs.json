@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building_blocks",
+  "group": "cut_tin_stairs",
+  "pattern": [
+    "T  ",
+    "TT ",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "bronze:cut_tin"
+    }
+  },
+  "result": {
+    "id": "bronze:cut_tin_stairs",
+    "count": 4
+  }
+}

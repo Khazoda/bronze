@@ -8,6 +8,12 @@
     "bronze:tin_block",
     "bronze:bronze_block",
     "bronze:bronze_door_block",
-    "bronze:bronze_trapdoor_block"
+    "bronze:bronze_trapdoor_block",
+    "bronze:chiseled_tin",
+    "bronze:tin_tiles",
+    "bronze:cut_tin",
+    "bronze:cut_tin_stairs",
+    "bronze:cut_tin_slab",
+    "bronze:tin_framed_glass"
   ]
 }

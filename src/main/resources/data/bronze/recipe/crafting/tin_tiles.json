@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building_blocks",
+  "group": "tin_tiles",
+  "pattern": [
+    " T ",
+    "T T",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "bronze:cut_tin"
+    }
+  },
+  "result": {
+    "id": "bronze:tin_tiles",
+    "count": 4
+  }
+}

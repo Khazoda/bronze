@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building_blocks",
+  "group": "cut_tin_slab",
+  "pattern": [
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "bronze:cut_tin"
+    }
+  },
+  "result": {
+    "id": "bronze:cut_tin_slab",
+    "count": 6
+  }
+}

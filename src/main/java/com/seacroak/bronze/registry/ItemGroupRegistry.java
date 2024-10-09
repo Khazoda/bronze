@@ -47,6 +47,9 @@ public class ItemGroupRegistry {
           entries.add(new ItemStack(MainRegistry.TIN_FRAMED_GLASS));
           entries.add(new ItemStack(MainRegistry.CHISELED_TIN));
           entries.add(new ItemStack(MainRegistry.TIN_TILES));
+          entries.add(new ItemStack(MainRegistry.CUT_TIN));
+          entries.add(new ItemStack(MainRegistry.CUT_TIN_STAIRS));
+          entries.add(new ItemStack(MainRegistry.CUT_TIN_SLAB));
 
         }).build();
   }
