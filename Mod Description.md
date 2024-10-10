@@ -34,9 +34,11 @@ With your new bronze ingot, a new material tier opens up to you. Read on to find
 
 ![Bronze Armor](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor.png?raw=true)
 
+### Armour Strengths
+
 <img style="float: right;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/trimming_features.png?raw=true" alt="Trimmable bronze armor items">
 
-### Bronze armor is a tier slightly above iron and below diamond.
+#### Bronze armor is a tier slightly above iron and below diamond.
 
 Most pieces have the same armor value as iron, but sport 2 distinct benefits over iron:
 
@@ -45,7 +47,14 @@ Most pieces have the same armor value as iron, but sport 2 distinct benefits ove
 - The bronze chestplate has one more armor point compared to iron
 
 Crafting bronze armor is the same as crafting iron armor, but using Bronze Ingots instead of Iron Ingots.
-<br/>Bronze armor fully supports Minecraft's new armor trimming system. Mix and match colors for the perfect set of armor.
+
+### Armour Trims
+
+Bronze armour fully supports Minecraft's armour trimming system. Mix and match colors for the perfect set of armor.
+
+Since version 1.0.11+1.21, it's also possible to customize your armour using tin and bronze ingots as trimming materials.
+
+You are able to trim any modded armour as long as it supports vanilla's trimming system. Check out the gallery for some modded armour with tin and bronze trims.
 
 <img style="float: center;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/gifs/bronze_armor_trial_chambers-optimized.gif?raw=true" alt="Gif of player wearing bronze armor walking through trial chambers">
 
