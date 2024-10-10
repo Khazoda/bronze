@@ -188,5 +188,3 @@ Thank you to all the wonderful translation contributors!
 - 卓华 胡
 - Pinwou
 - ix0rai
-
-![Bronze Mod Footer](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_footer.png?raw=true)
