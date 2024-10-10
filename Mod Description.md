@@ -88,6 +88,14 @@ This item helps you manage the flora in your world. It can harvest fully-grown c
 
 #### Did you know: The sickle is in the same class as shears, compasses, clocks and the archaeology brush - it doesn't have different material tiers, and can subsequently only be made from bronze.
 
+<!-- DECORATIVE BLOCKS SECTION -->
+
+![Bronze Mod Decorative Blocks](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_deco.png?raw=true)
+
+
+![Bronze Mod Decorative Blocks](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/deco_blocks.png?raw=true)
+
+
 <!-- FUTURE PLANS SECTION -->
 
 ![Bronze Mod Future](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_future.png?raw=true)
