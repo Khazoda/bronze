@@ -92,6 +92,10 @@ This item helps you manage the flora in your world. It can harvest fully-grown c
 
 ![Bronze Mod Decorative Blocks](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_deco.png?raw=true)
 
+### Tin isn't just used to make bronze, It's a versatile building material too!
+Have you made a full set of bronze weapons, tools & armour? Then it's time to put your surplus materials to use and craft some of the decorative blocks included in the Bronze mod!  
+
+Chiseled tin, cut tin, stairs, slabs, connected tin framed glass and more building blocks await! These materials would fit nicely into a temple or modern house build, and are also a great way to show off your wealth! ⛏️
 
 ![Bronze Mod Decorative Blocks](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/deco_blocks.png?raw=true)
 
@@ -107,8 +111,9 @@ The bronze mod has three main goals it aims to achieve:
 
 #### With this in mind, there are a few new features I'd like to implement in the Bronze mod going forward:
 
-This mod already includes a few non-combat blocks and items, such as the `Bronze Door`, `Bronze Trapdoor` and `Sickle`, but I believe there's room for more.<br/>
-Iron ingots have many different roles in vanilla Minecraft. They can be used for armor, weapons, tools, pistons, chains, pressure plates and about 35 other recipes.<br/>
+This mod already includes a few non-combat blocks and items, such as the `Bronze Door`, `Bronze Trapdoor` and `Sickle`, but I believe there's room for more. `Update: Since 1.0.11+1.21, a myriad of new tin-based building blocks have been added.`<br/>
+
+Iron ingots have many different roles in vanilla Minecraft. They can be used for armor, weapons, tools, pistons, chains, pressure plates and about 35 other recipes.
 While I don't want bronze to be as useful as iron, as I believe it would take away from iron's mid-game dominance as a useful material too much, I do want to add some unique features that round the material out.
 
 To simplify this thought process:
@@ -116,7 +121,7 @@ To simplify this thought process:
 - ❌ This mod **will not** hijack all of iron's recipes with its own versions, e.g. Bronze Bucket, Bronze Shears etc.
 - ✅ This mod **will** come up with simple new utilities/blocks for bronze that don't feel out of place in the base game e.g. Sickle
 
-Also, much like the Basic Weapons mod, I intend to update this mod with each new major version of Minecraft going forward. If you've read this far, thank you! I hope you enjoy using this mod, and if you have any queries/issues contact me via the mod's GitHub issues, or in the CurseForge comments 🙂.
+Also, much like the Basic Weapons mod, I intend to update this mod with each new major version of Minecraft going forward. If you've read this far, thank you! I hope you enjoy using this mod, and if you have any queries/issues contact me via the mod's GitHub issues, via Discord or in the CurseForge comments section🙂.
 
 ## Third Party Related Projects
 [Slow Your Bronze](https://modrinth.com/mod/slow-your-bronze) adds compatibility between this mod and [Slow Your Roll](https://modrinth.com/mod/slow-your-roll). Thank you KayoticCarnige!
@@ -125,6 +130,7 @@ Also, much like the Basic Weapons mod, I intend to update this mod with each new
 The following mods have built-in compatibility with the Bronze mod. If you find incompatibilities between Bronze and any other mods, please [create an issue](https://github.com/Khazoda/bronze/issues/new).
 
 - [Alloy Forgery](https://modrinth.com/mod/alloy-forgery) by Wisp Forest
+- [Continuity](https://modrinth.com/mod/continuity) by PepperCode1
 
 ## Tin ore spawn levels
 Open the section below to see the y levels that tin ore can be found
@@ -186,7 +192,7 @@ Full Minecraft recipe book integration
 Bronze and Tin as armor trim materials
 ```
 
-Thank you to all the wonderful translation contributors!
+Thank you to all the wonderful translation contributors! If you'd like to contribute translations for this mod, please visit the [translation platform](https://poeditor.com/join/project/s6iwe7N69K).
 
 - Luis
 - Vico
