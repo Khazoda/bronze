@@ -3,16 +3,16 @@
   "category": "equipment",
   "key": {
     "X": {
-      "item": "bronze:bronze_ingot"
+      "tag": "c:ingots/bronze"
     }
   },
   "pattern": [
-    "XXX",
     "X X",
-    "X X"
+    "XXX",
+    "XXX"
   ],
   "result": {
     "count": 1,
-    "id": "bronze:bronze_leggings"
+    "id": "bronze:bronze_chestplate"
   }
 }

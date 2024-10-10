@@ -6,16 +6,16 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "bronze:bronze_ingot"
+      "tag": "c:ingots/bronze"
     }
   },
   "pattern": [
     "X",
-    "#",
+    "X",
     "#"
   ],
   "result": {
     "count": 1,
-    "id": "bronze:bronze_shovel"
+    "id": "bronze:bronze_sword"
   }
 }

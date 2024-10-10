@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
+  "category": "bronze",
   "key": {
     "X": {
-      "item": "bronze:bronze_ingot"
+      "tag": "c:ingots/bronze"
     }
   },
   "pattern": [
-    "XXX",
-    "X X"
+    "XX ",
+    "XX ",
+    "XX "
   ],
   "result": {
     "count": 1,
-    "id": "bronze:bronze_helmet"
+    "id": "bronze:bronze_door_block"
   }
 }

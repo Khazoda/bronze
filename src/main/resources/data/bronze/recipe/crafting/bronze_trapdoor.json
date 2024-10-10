@@ -3,16 +3,16 @@
   "category": "bronze",
   "key": {
     "X": {
-      "item": "bronze:bronze_ingot"
+      "tag": "c:ingots/bronze"
     }
   },
   "pattern": [
     "XX ",
     "XX ",
-    "XX "
+    "   "
   ],
   "result": {
     "count": 1,
-    "id": "bronze:bronze_door_block"
+    "id": "bronze:bronze_trapdoor_block"
   }
 }

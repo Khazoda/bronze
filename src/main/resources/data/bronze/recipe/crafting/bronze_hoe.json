@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
     "X": {
-      "item": "bronze:bronze_ingot"
+      "tag": "c:ingots/bronze"
     }
   },
   "pattern": [
-    "X X",
-    "XXX",
-    "XXX"
+    "XX",
+    " #",
+    " #"
   ],
   "result": {
     "count": 1,
-    "id": "bronze:bronze_chestplate"
+    "id": "bronze:bronze_hoe"
   }
 }
