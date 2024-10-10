@@ -32,9 +32,9 @@
   ],
   "rewards": {
     "recipes": [
-      "bronze:bronze_ingot_from_smelting_bronze_blend",
-      "bronze:bronze_ingot_from_blasting_bronze_blend",
-      "bronze:bronze_blend_block"
+      "bronze:smelting/bronze_ingot_from_smelting_bronze_blend",
+      "bronze:smelting/bronze_ingot_from_blasting_bronze_blend",
+      "bronze:crafting/bronze_blend_block"
     ]
   },
   "sends_telemetry_event": true

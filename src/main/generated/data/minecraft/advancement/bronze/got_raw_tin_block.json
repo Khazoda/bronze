@@ -30,7 +30,7 @@
   ],
   "rewards": {
     "recipes": [
-      "bronze:raw_tin"
+      "bronze:crafting/raw_tin"
     ]
   },
   "sends_telemetry_event": true

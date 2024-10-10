@@ -31,22 +31,22 @@
   ],
   "rewards": {
     "recipes": [
-      "bronze:bronze_helmet",
-      "bronze:bronze_chestplate",
-      "bronze:bronze_leggings",
-      "bronze:bronze_boots",
-      "bronze:bronze_sword",
-      "bronze:bronze_pickaxe",
-      "bronze:bronze_shovel",
-      "bronze:bronze_axe",
-      "bronze:bronze_hoe",
-      "bronze:bronze_sickle",
-      "bronze:bronze_nugget",
-      "bronze:bronze_nugget_from_smelting",
-      "bronze:bronze_nugget_from_blasting",
-      "bronze:bronze_door",
-      "bronze:bronze_trapdoor",
-      "bronze:bronze_block"
+      "bronze:crafting/bronze_helmet",
+      "bronze:crafting/bronze_chestplate",
+      "bronze:crafting/bronze_leggings",
+      "bronze:crafting/bronze_boots",
+      "bronze:crafting/bronze_sword",
+      "bronze:crafting/bronze_pickaxe",
+      "bronze:crafting/bronze_shovel",
+      "bronze:crafting/bronze_axe",
+      "bronze:crafting/bronze_hoe",
+      "bronze:crafting/bronze_sickle",
+      "bronze:crafting/bronze_nugget",
+      "bronze:smelting/bronze_nugget_from_smelting",
+      "bronze:smelting/bronze_nugget_from_blasting",
+      "bronze:crafting/bronze_door",
+      "bronze:crafting/bronze_trapdoor",
+      "bronze:crafting/bronze_block"
     ]
   },
   "sends_telemetry_event": true

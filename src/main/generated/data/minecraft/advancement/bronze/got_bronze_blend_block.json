@@ -30,7 +30,7 @@
   ],
   "rewards": {
     "recipes": [
-      "bronze:bronze_blend"
+      "bronze:crafting/bronze_blend"
     ]
   },
   "sends_telemetry_event": true

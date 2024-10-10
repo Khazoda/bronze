@@ -116,7 +116,16 @@ public class ItemGroupRegistry {
     ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
       content.addAfter(Items.CHAIN,
           MainRegistry.BRONZE_BLOCK,
-          MainRegistry.TIN_BLOCK);
+          MainRegistry.BRONZE_DOOR,
+          MainRegistry.BRONZE_TRAPDOOR);
+
+      content.addAfter(Items.WAXED_OXIDIZED_COPPER_BULB,
+          MainRegistry.TIN_BLOCK,
+          MainRegistry.CHISELED_TIN,
+          MainRegistry.TIN_TILES,
+          MainRegistry.CUT_TIN,
+          MainRegistry.CUT_TIN_STAIRS,
+          MainRegistry.CUT_TIN_SLAB);
     });
 
     /* Redstone Blocks */

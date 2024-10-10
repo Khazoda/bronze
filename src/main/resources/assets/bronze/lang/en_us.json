@@ -34,6 +34,8 @@
   "trim_material.bronze.tin": "Tin Material",
   "advancement.bronze.got_tin_ingot.title": "Tin There, Done That",
   "advancement.bronze.got_tin_ingot.description": "Smelt a Tin Ingot",
+  "advancement.bronze.got_cut_tin.title": "Who is Cut Tin Onions?",
+  "advancement.bronze.got_cut_tin.description": "Obtain a Block of Cut Tin",
   "advancement.bronze.got_bronze_blend.title": "It's Not For Your Face",
   "advancement.bronze.got_bronze_blend.description": "Three Raw Copper and one Raw Tin will turn your smile into a grin",
   "advancement.bronze.got_bronze_ingot.title": "Alloyed",

@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:bronze/got_tin_ingot",
+  "criteria": {
+    "got_cut_tin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bronze:cut_tin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.bronze.got_cut_tin.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bronze:cut_tin"
+    },
+    "title": {
+      "translate": "advancement.bronze.got_cut_tin.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_cut_tin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bronze:crafting/tin_tiles",
+      "bronze:stonecutting/chiseled_tin_from_cut_tin",
+      "bronze:stonecutting/cut_tin_slab_from_cut_tin",
+      "bronze:stonecutting/cut_tin_stairs_from_cut_tin",
+      "bronze:stonecutting/tin_tiles_from_cut_tin",
+      "bronze:crafting/cut_tin_slab",
+      "bronze:crafting/cut_tin_stairs",
+      "bronze:crafting/chiseled_tin_from_slabs"
+    ]
+  },
+  "sends_telemetry_event": true
+}

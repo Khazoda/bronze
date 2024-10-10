@@ -31,7 +31,14 @@
   ],
   "rewards": {
     "recipes": [
-      "bronze:tin_block"
+      "bronze:crafting/tin_block",
+      "bronze:stonecutting/cut_tin",
+      "bronze:stonecutting/tin_framed_glass",
+      "bronze:stonecutting/chiseled_tin_from_tin_block",
+      "bronze:stonecutting/cut_tin_from_tin_block",
+      "bronze:stonecutting/cut_tin_slab_from_tin_block",
+      "bronze:stonecutting/cut_tin_stairs_from_tin_block",
+      "bronze:stonecutting/tin_tiles_from_tin_block"
     ]
   },
   "sends_telemetry_event": true

@@ -30,7 +30,7 @@
   ],
   "rewards": {
     "recipes": [
-      "bronze:bronze_ingot_from_nuggets"
+      "bronze:crafting/bronze_ingot_from_nuggets"
     ]
   },
   "sends_telemetry_event": true

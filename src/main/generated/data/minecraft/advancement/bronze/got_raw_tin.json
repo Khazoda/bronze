@@ -30,15 +30,15 @@
   ],
   "rewards": {
     "recipes": [
-      "bronze:bronze_blend_from_copper_and_tin",
-      "bronze:raw_tin_block",
-      "bronze:tin_ingot",
-      "bronze:tin_ingot_from_smelting_deepslate_tin_ore",
-      "bronze:tin_ingot_from_smelting_raw_tin",
-      "bronze:tin_ingot_from_smelting_tin_ore",
-      "bronze:tin_ingot_from_blasting_deepslate_tin_ore",
-      "bronze:tin_ingot_from_blasting_raw_tin",
-      "bronze:tin_ingot_from_blasting_tin_ore"
+      "bronze:crafting/bronze_blend_from_copper_and_tin",
+      "bronze:crafting/raw_tin_block",
+      "bronze:crafting/tin_ingot",
+      "bronze:smelting/tin_ingot_from_smelting_deepslate_tin_ore",
+      "bronze:smelting/tin_ingot_from_smelting_raw_tin",
+      "bronze:smelting/tin_ingot_from_smelting_tin_ore",
+      "bronze:smelting/tin_ingot_from_blasting_deepslate_tin_ore",
+      "bronze:smelting/tin_ingot_from_blasting_raw_tin",
+      "bronze:smelting/tin_ingot_from_blasting_tin_ore"
     ]
   },
   "sends_telemetry_event": true
