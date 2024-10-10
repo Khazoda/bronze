@@ -34,9 +34,7 @@ With your new bronze ingot, a new material tier opens up to you. Read on to find
 
 ![Bronze Armor](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor.png?raw=true)
 
-<img style="float: left;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor_trims.png?raw=true" alt="Trimmable bronze armor items">
-
-<img style="float: right;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor_items.png?raw=true" alt="Trimmable bronze armor items">
+<img style="float: right;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/trimming_features.png?raw=true" alt="Trimmable bronze armor items">
 
 ### Bronze armor is a tier slightly above iron and below diamond.
 
